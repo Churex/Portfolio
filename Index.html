@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu Portfólio</title>
+        <link rel="stylesheet" href="css/style.css">  <!-- Caminho correto para o CSS -->
+    </head>    
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <section id="sobre">
+        <div class="sobre-texto">
+            <h1>Sobre Mim</h1>
+            <p>Olá, sou Alex Yure, estudante do curso de Ciências da Computação na Universidade Estadual da Paraíba (UEPB) e integrante do projeto de empresa júnior KNEX. Ao longo da minha trajetória acadêmica, busquei aprimorar meus conhecimentos em diversas áreas da computação, com foco em inovação e desenvolvimento de soluções tecnológicas. Na KNEX, tenho a oportunidade de aplicar teoria na prática, trabalhando em projetos que visam impactar positivamente o mercado e a sociedade.
+
+                Este portfólio reflete um pouco da minha jornada, onde compartilho meus projetos e experiências que moldam minha visão e habilidades na área de tecnologia. Estou sempre em busca de novos desafios e aprendizados, e aqui você encontrará as conquistas que me motivam a seguir evoluindo nessa incrível área da computação.</p>
+        </div>
+        <div class="sobre-imagem">
+            <img src="imagens/foto knex.jpg" alt="Minha Foto">
+        </div>
+    </section>
+    
+    
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="carousel">
+            <button id="prev">&#10094;</button>
+            <div class="carousel-container">
+                <div class="carousel-item">
+                    <img src="imagens/logo-knex-minimalista.png" alt="Projeto 1">
+                    <div class="overlay">
+                        <a href="https://www.knexjr.tech/" target="_blank">
+                            <h3>Front page KNEX</h3>
+                        </a>
+                        <p>Participei na criação da front page da EJ trabalhando em equipe no github ganhando experiência em desenvolcimento com a metodologia rápida scrum</p>
+                    </div>
+                </div>
+                <!-- Adicionar mais projetos aqui -->
+            </div>
+            <button id="next">&#10095;</button>
+        </div>
+    </section>
+    
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="form-contato">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required>
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email" required>
+            
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" required></textarea>
+            
+            <button type="submit" id="enviar" disabled>Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Alex Yure Fernandes Moreira</p>
+        <div class="social-icons">
+            <a href="https://github.com/Churex" target="_blank">
+                <i><img src="https://cdn-icons-png.flaticon.com/128/270/270798.png" alt="GitHub"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/alex-yure-fernandes-moreira-b29526239/" target="_blank">
+                <i><img src="https://cdn-icons-png.flaticon.com/128/1377/1377213.png" alt="LinkedIn"></i>
+            </a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
