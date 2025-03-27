@@ -11,7 +11,7 @@ next.addEventListener("click", () => {
     container.scrollBy({ left: 200, behavior: "smooth" });
 });
 
-// Validação do formulário
+//formulário
 const form = document.getElementById("form-contato");
 const nome = document.getElementById("nome");
 const email = document.getElementById("email");
